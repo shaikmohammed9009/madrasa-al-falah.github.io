@@ -5,7 +5,7 @@ $subject=$_POST[""];
 $message=$_POST[""];
 
 
-$email_form="https://madrasa-al-falah.netlify.app/"
+$email_form="info@madrasa-al-falah.netlify.app"
 $email_subject="New Form Submission"
 $email_body="User Name : $name.\n".
             "User Email : $vistor_email.\n".
