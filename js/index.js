@@ -12,5 +12,9 @@ window.onscroll=()=>{
     Nav.classList.remove("active")
 }
 
+// let btn=document.querySelector(".play")
+// btn.onclick=()=>{
+//     btn.classList.add("active_btn")
+// }
 
 

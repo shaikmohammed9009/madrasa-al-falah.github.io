@@ -26,6 +26,7 @@ font-family: 'Roboto Condensed', sans-serif;
 html{
     
     font-size:62.5%;
+    scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar{
@@ -37,7 +38,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    scroll-behavior: smooth;
+   
     border-radius: 5rem;
     background: linear-gradient(var(--color),rgb(174, 78, 237));
 }
