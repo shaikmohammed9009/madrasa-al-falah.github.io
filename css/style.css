@@ -593,7 +593,7 @@ font-weight: 900;
 
     }
 
-    header .nav  ul li a{
+    header .nav  ul li {
         border: .1rem solid #666;
         border-radius: 1rem;
         margin-top: 1rem;
