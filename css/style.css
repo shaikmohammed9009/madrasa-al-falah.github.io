@@ -99,15 +99,17 @@ header{
 }
 
 header .logo{
-    font-size: 4rem;
-    color: var(--color);
-    font-weight: 800;
+  
+   margin: .5rem;
+   width: 66px;
+   height: 66px;
+
     
 }
 
-header .logo span{
-    color: #ae4eed;
-    font-weight: 900;
+header .logo .al_f{
+    width: 100%;
+    height: auto;
 }
 
 header .nav ul{
@@ -627,7 +629,7 @@ font-weight: 900;
         top:100%;
         left:0;
         right:0;
-      
+        padding: 1rem;
         border-radius: 1rem;
         
        
