@@ -31,20 +31,20 @@ remove_all.onclick=()=>{
     home.classList.remove("active_home")
 }
 
-// $(document).ready(()=>{
-//     $(".event").magnificPopup({
+$(document).ready(()=>{
+    $(".event").magnificPopup({
       
-//         mainClass: 'a',
+      delegate:"a",
        
-//       type:"image",
+      type:"image",
      
-//       gallery:{
-//           enabled:true
-//       }
+      gallery:{
+          enabled:true
+      }
       
-//     })
+    })
    
-// });
+});
 
 
 
