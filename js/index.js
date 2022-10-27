@@ -20,7 +20,8 @@ let btn=document.querySelector(".btn")
 let home=document.querySelector(".home")
 let clip = document.querySelector(".clip")
 let remove_all = document.querySelector(".rmdata")
-btn.onclick=function(){
+btn.onclick=()=>{
+    console.log("asalamu alaikum")
     btn.classList.add("active_btn")
     clip.classList.add("active_btn")
     home.classList.add("active_home")
