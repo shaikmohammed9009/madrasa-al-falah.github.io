@@ -1,6 +1,4 @@
 
-
-
 let menu =document.querySelector("#menu")
 
 let Nav = document.querySelector("ul")
